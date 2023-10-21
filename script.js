@@ -20,8 +20,8 @@ let songIndex=4;
  //update the song details
  function loadSongs(song){
     title.innerText=song;
-    audio.src=`music/${song}.mp3`; //fetching songs
-    cover.src=`images/${song}.jpg`; //fetching images
+    audio.src=`./music/${song}.mp3`; //fetching songs
+    cover.src=`./images/${song}.jpg`; //fetching images
 
  }
 
